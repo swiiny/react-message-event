@@ -1,10 +1,11 @@
 {
   "name": "react-message-event",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React hook used to communicate between components using the native `message` event listener",
-  "main": "index.ts",
+  "main": "dist/index.cjs.js",
+	"module": "dist/index.esm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -23,10 +24,14 @@
   },
   "homepage": "https://github.com/JeremyTheintz/react-message-event#readme",
   "peerDependencies": {
-    "react": ">=16.10.2",
-    "typescript": ">=4.0.0"
+    "react": ">=16.10.2"
 	},
   "devDependencies": {
-    "@types/react": "^18.0.27"
+    "@types/react": "^18.0.27",
+    "rollup": "^2.66.0",
+		"rollup-plugin-bundle-size": "^1.0.3",
+		"rollup-plugin-delete": "^2.0.0",
+		"rollup-plugin-typescript2": "^0.31.1",
+		"typescript": "^4.5.5"
   }
 }
