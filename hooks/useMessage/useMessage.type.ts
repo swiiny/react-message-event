@@ -1,10 +1,10 @@
 interface INewMessage<TMessageKey, TMessagePayload> {
-	type: TMessageKey;
+	key: TMessageKey;
 	payload: TMessagePayload;
 }
 
 interface IUseMessage<TMessageKey, TMessagePayload> {
-	types: TMessageKey[];
+	keys: TMessageKey[];
 	callback: (message: INewMessage<TMessageKey, TMessagePayload>) => void;
 }
 
