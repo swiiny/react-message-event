@@ -1,0 +1,32 @@
+{
+  "name": "react-message-event",
+  "version": "1.0.0",
+  "description": "React hook used to communicate between components using the native `message` event listener",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeremyTheintz/react-message-event.git"
+  },
+  "keywords": [
+    "MessageEvent",
+    "React",
+    "Hook",
+    "Message"
+  ],
+  "author": "Jeremy Theintz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeremyTheintz/react-message-event/issues"
+  },
+  "homepage": "https://github.com/JeremyTheintz/react-message-event#readme",
+  "peerDependencies": {
+    "react": ">=16.10.2",
+    "typescript": ">=4.0.0"
+	},
+  "devDependencies": {
+    "@types/react": "^18.0.27"
+  }
+}
