@@ -1,6 +1,6 @@
-interface INewMessage<TMessageKey, TMessagePayload> {
+interface INewMessage<TMessageKey, TMessagePayload = undefined> {
 	key: TMessageKey;
-	payload: TMessagePayload | undefined;
+	payload?: TMessagePayload;
 }
 
 interface IUseMessage<TMessageKey, TMessagePayload> {
