@@ -1,5 +1,11 @@
 # react-message-event
 
+[![npm version](https://img.shields.io/npm/v/react-message-event?color=blue)](https://www.npmjs.com/package/react-message-event)
+[![npm downloads](https://img.shields.io/npm/dm/react-message-event.svg?color=blue)](https://www.npmjs.com/package/react-message-event)
+[![GitHub stars](https://img.shields.io/github/stars/JeremyTheintz/react-message-event.svg?label=Stars&style=flat&logo=github&color=blue)](https://www.npmjs.com/package/react-message-event)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat&logo=github)
+![GitHub](https://img.shields.io/github/license/JeremyTheintz/react-message-event?color=blue)
+
 `react-message-event` is a React hook that allows communication between components using the native `message` event listener. This hook can be used to send and receive messages with specific keys and payloads. This library uses the `postMessage` function to communicate between components, which is only possible between components that are in the same window or iframe. With this library, you can easily send messages between sibling and parent-child components, without the need to pass props down through multiple levels of components.
 
 ## Installation
