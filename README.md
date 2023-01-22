@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/react-message-event?color=blue)](https://www.npmjs.com/package/react-message-event)
 [![npm downloads](https://img.shields.io/npm/dm/react-message-event.svg?color=blue)](https://www.npmjs.com/package/react-message-event)
-[![GitHub stars](https://img.shields.io/github/stars/JeremyTheintz/react-message-event.svg?label=Stars&style=flat&logo=github&color=blue)](https://www.npmjs.com/package/react-message-event)
+[![GitHub stars](https://img.shields.io/github/stars/JeremyTheintz/react-message-event.svg?label=Stars&style=flat&logo=github&color=blue)](https://github.com/JeremyTheintz/react-message-event/stargazers)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat&logo=github)
 ![GitHub](https://img.shields.io/github/license/JeremyTheintz/react-message-event?color=blue)
 
